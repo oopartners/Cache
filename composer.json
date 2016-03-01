@@ -9,7 +9,7 @@
             "email": "g.passault@gmail.com"
         }
     ],
-    "target-dir": "Gregwar/Cache",
+    "target-dir": "Oopartners/Cache",
     "require": {
         "php": ">=5.3"
     },
