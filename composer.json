@@ -1,5 +1,5 @@
 {
-    "name": "gregwar/cache",
+    "name": "oopartners/cache",
     "description": "A lightweight file-system cache system",
     "keywords": ["cache", "caching", "system", "file-system"],
     "license": "MIT",
