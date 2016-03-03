@@ -160,7 +160,7 @@ class Cache implements CacheInterface
             // Create dir for each sub level, to avoid mkdir() "file exists" error
             $actualDir = $this->getActualCacheDirectory() . '/' . $pathConcat;
             if ($mkdir && !is_dir($actualDir)) {
-                mkdir($actualDir, $this->directoryMode, true);
+                @mkdir($actualDir, $this->directoryMode, true);
             }
         }
 
